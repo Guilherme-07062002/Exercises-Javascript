@@ -1,0 +1,2 @@
+const Maior = (n1, n2) => n1 > n2 ? document.write(`${n1} é maior que: ${n2}`) : n1 == n2 ? document.write(`${n1} é igual a: ${n2}`) : document.write(`${n1} é menor que: ${n2}`)
+Maior(Number(prompt('Informe o 1° número: ')), Number(prompt('Informe o 2° número: ')))
